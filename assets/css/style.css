@@ -413,7 +413,7 @@ a:hover {
   margin: 0 4px;
   border-radius: 0;
   opacity: 1;
-  transition: 0.3s;
+  transition: 10s;
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
@@ -530,8 +530,8 @@ a:hover {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 5s linear infinite;
+  animation: animate-preloader 5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -985,7 +985,7 @@ a:hover {
   background-color: #ffffff;
   border-radius: 0;
   opacity: 1;
-  transition: 0.3s;
+  transition: 10s;
 }
 
 .intro .swiper-pagination .swiper-pagination-bullet-active {
@@ -1031,7 +1031,7 @@ a:hover {
 
 .intro .spacial {
   -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  animation-delay: 10s;
   color: #ffffff;
 }
 
@@ -2095,8 +2095,8 @@ a:hover {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+  -webkit-animation: animate-loading 5s linear infinite;
+  animation: animate-loading 5s linear infinite;
 }
 
 .php-email-form label {
